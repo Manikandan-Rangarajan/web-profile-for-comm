@@ -19,6 +19,7 @@ h1:hover{
      transition: 1.75s;
      rotate: 360deg;
      font-family: cursive;
+     font-size: 80px;
 }
 
 .row{
