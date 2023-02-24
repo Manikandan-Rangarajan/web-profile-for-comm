@@ -1,0 +1,69 @@
+body{
+    background-image:linear-gradient(90deg,#ff9090,#99f0f5);
+    background-repeat: repeat;
+    background-size: cover;
+
+}
+
+h1{
+    color:  rgb(12, 12, 10);
+    font-family: 'Secular One', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+h1:hover{
+     -webkit-text-stroke: 2px black;
+     background: transparent;
+     color: transparent;
+     transition: 1.75s;
+     rotate: 360deg;
+     font-family: cursive;
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    padding: 30px;
+    margin: 50px 100px;
+}
+
+.col h3{
+    color: rgb(182, 5, 246);
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    -webkit-text-stroke: #000;
+}
+
+.col h1{
+    color:  rgb(220, 250, 53);
+    font-family: 'Secular One', sans-serif;
+    font-size: 50px;
+    -webkit-text-stroke: #000;
+}
+
+.col a{
+    color: rgb(182, 5, 246);
+    -webkit-text-stroke: 2px,#000;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+.img:hover{
+    opacity: 70%;
+    cursor: zoom-in;
+    rotate: 360deg;
+    transition: 1s;
+}
+
+.word:hover{
+    background-color: transparent;
+}

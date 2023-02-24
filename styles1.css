@@ -1,0 +1,24 @@
+body{
+    background-image:linear-gradient(90deg,#89faba,#f28dfb);
+    background-repeat: repeat-y;
+    background-size: cover;
+    display : flex;
+    
+}
+
+.col h1{
+    color:  rgba(255, 0, 123, 0.858);
+    font-family: 'Secular One', sans-serif;
+    font-size: 60px;
+}
+ 
+.col h3{
+    color: #140263;
+    font-family: 'Secular One', sans-serif;
+    font-size: 26px;  
+}
+
+.col{
+    padding: 30px;
+    margin: 100px;
+}
